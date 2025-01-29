@@ -3,29 +3,48 @@ body {
     line-height: 1.6;
     background: #f4f4f4;
     padding:20px;
-
 }
-header, footer {
-    padding: 20px;
+header{
   text-align: center;
+  font-size:20px;
+    border: 3px solid #000000;
+
+} 
+footer {
+  text-align: right;
+  color:grey;
+  border: 3px solid #000000;
+  margin-top:15px;
+  border-left:none;
+   border-bottom:none;
+   border-right:none;
 }
 section{
-    text-align: center;
-    padding:20px;
-    background-color:burlywood;
+  text-align: center;
+  background-color: white;
+  border-width:3px 3px 3px 25px;
+  border-color: green;
+  border-style: solid;
   }
   article{
     text-align: center;
+    margin-right:320px;
+  margin-left:320px;
   }
+a{
+  color:grey;
+}
   aside{
     text-align: right;
+    display: right;
   }
   aside::first-line{
     font-weight: 700;
   }
 h1{
-    color: aqua;
+  font-size:40px;
+  float:left;
 }
 h2{
-    color: blueviolet;
+  font-size:;
 }
