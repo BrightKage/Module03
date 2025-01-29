@@ -1,15 +1,35 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
+    background: white;
     padding:20px;
 }
 header{
   text-align: center;
   font-size:20px;
     border: 3px solid #000000;
-
 } 
+.container {
+  position: relative;
+}
+section1{
+  position:absolute;
+  left:0%;
+  top:20%;
+  margin-left:40px;
+  margin-right:40px;
+  text-align:left;
+  font-size:20px;
+}
+section2{
+  position:absolute;
+  left:0%;
+  top:50%;
+  margin-left:40px;
+  margin-right:40px;
+  text-align:left;
+  font-size:20px;
+}
 footer {
   text-align: right;
   color:grey;
@@ -33,6 +53,7 @@ section{
   }
 a{
   color:grey;
+  height:75%;
 }
   aside{
     text-align: right;
@@ -46,5 +67,9 @@ h1{
   float:left;
 }
 h2{
-  font-size:;
+  position: absolute;
+  top: 0%;
+  left:50%;
+  transform: translate(-50%, -70%);
 }
+
