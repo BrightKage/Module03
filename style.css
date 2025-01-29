@@ -10,12 +10,13 @@ header{
     border: 3px solid #000000;
 } 
 .container {
-  position: relative;
+  position: relative;     
+height:75%;
 }
 section1{
   position:absolute;
   left:0%;
-  top:5%;
+  top:10%;
   text-align:left;
 }
 section2{
@@ -43,12 +44,11 @@ section{
   }
   article{
     text-align: center;
-    margin-right:20px;
-  margin-left:20px;
+    margin-right:80px;
+  margin-left:80px;
   }
 a{
   color:grey;
-  height:75%;
 }
   aside{
     text-align: right;
