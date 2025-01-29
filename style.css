@@ -19,11 +19,10 @@ section1{
   text-align:left;
 }
 section2{
-    padding:20px;
   position:absolute;
   left:0%;
   top:50%;
-
+  text-align:left;
 }
 footer {
   text-align: right;
@@ -43,8 +42,8 @@ section{
   }
   article{
     text-align: center;
-    margin-right:80px;
-  margin-left:80px;
+    margin-right:120px;
+  margin-left:120px;
   }
 a{
   color:grey;
