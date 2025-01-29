@@ -17,8 +17,10 @@ section1{
   left:0%;
   top:20%;
   text-align:left;
+    padding:20px;
 }
 section2{
+    padding:20px;
   position:absolute;
   left:0%;
   top:50%;
