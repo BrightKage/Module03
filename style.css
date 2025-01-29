@@ -11,19 +11,18 @@ header{
 } 
 .container {
   position: relative;
-    height:auto;
 }
 section1{
   position:absolute;
   left:0%;
-  top:20%;
+  top:10%;
   text-align:left;
 }
 section2{
     padding:20px;
   position:absolute;
   left:0%;
-  top:50%;
+  top:70%;
 
 }
 footer {
@@ -44,8 +43,8 @@ section{
   }
   article{
     text-align: center;
-    margin-right:320px;
-  margin-left:320px;
+    margin-right:40px;
+  margin-left:40px;
   }
 a{
   color:grey;
